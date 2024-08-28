@@ -1,0 +1,6 @@
+"client": "cd client && npm start",
+"server":"cd server && npm run watch",
+
+
+
+"watch": "npm run server && npm run client", -- this wont work as it wait for first command to get complete
